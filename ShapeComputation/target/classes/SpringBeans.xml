@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="perimeterVisitorBean" class="com.shape.visitor.PerimeterVisitor"/>
+   
+   <bean id="areaVisitorBean" class="com.shape.visitor.AreaVisitor"/>
+	
+	<bean id="circleBean" class="com.shape.calculate.Circle"/>
+	
+	<bean id="triangleBean" class="com.shape.calculate.Triangle"/>
+	
+	<bean id="rectangleBean" class="com.shape.calculate.Rectangle"/>
+</beans>
